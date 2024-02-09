@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5E7650F-D841-925F-2240-D0EEB62D3162" name="cheque">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:06:49 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="548771A6-8D56-32B8-FF0B-8EB4118741EE">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:07:49 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirigido_a" id="AACF1DC2-FED2-F78B-B802-DBB695C2DFE2">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:07:49 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_pagado" id="49AFC559-B6BB-5B6B-A41C-B0AD9BCD4597">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:07:49 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_emision" id="CDAB75CC-5ED3-C5A6-B2A3-55096053646F">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:07:49 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lugar_emision" id="09014A44-DA97-9788-CF1D-01CA1E5AB80E">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:21:02 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entidad_bancaria" id="B612E2D4-1351-ACC6-063F-544711681629">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:24:22 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referencia" id="EDFD6068-983B-82D1-EF79-306310E5AD05">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:24:22 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uuid" id="358C93A7-027E-AE73-9C31-1E62D490F0C3">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:24:22 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="depositdado" id="56954A3B-3E0F-F45E-43B5-E8959AEF3E88">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:24:22 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vigencia" id="54ADF1BC-9DB1-D7FF-0055-A3F9A6A938FE">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:25:37 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado_por" id="A63A2368-2BDF-9A24-CBF7-D42FC2DA201B">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:32:24 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6A3A860-B8EC-46F8-C6F2-EA7E5BCB8B03" name="cheque_PK">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 20:08:42 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="548771A6-8D56-32B8-FF0B-8EB4118741EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
