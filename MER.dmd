@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER" id="F304A6AF-6A75-46CA-F279-A0FD497B06EB" version="3.5">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:08:14 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F304A6AF-6A75-46CA-F279-A0FD497B06EB</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DC05CCFD-D838-DAE4-796D-4CD9421951DD">
+<designStoragePath>C:\Users\samuel.martinez\Desktop\chequesapp\chequesapp</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

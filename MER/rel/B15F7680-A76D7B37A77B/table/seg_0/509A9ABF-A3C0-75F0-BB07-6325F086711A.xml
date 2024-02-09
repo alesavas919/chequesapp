@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="509A9ABF-A3C0-75F0-BB07-6325F086711A" name="usuario">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:11:56 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>F8B16796-9307-25BB-74D8-AE5F529FD5D6</importedID>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="35796D28-A497-6797-D610-B45344B98892">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:11:56 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>AE9B42DB-3C1B-C6AD-D449-D5D7BA5078AA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uuid" id="9E2754A9-B085-90E8-D029-49D8C0ADC7AA">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:19:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="51899CE7-6EEB-1BA5-9931-981728BECACA">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:19:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="B5C07573-74D6-9164-CD82-0F1A9020FFF2">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:19:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="4D7CE749-44B9-FE92-9424-FD593C1C1BD9">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:19:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasena" id="1168F21A-C0AC-780A-8B17-6569B828C6B9">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:19:56 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="27B5898C-41AA-6126-BD52-2DA572990951">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:20:19 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="880EE8E1-0BD2-2CDF-FB6B-428D4C4F1137">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:20:56 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bloqueado" id="DD0A0A71-AD0F-BD0B-B121-4D64F9544823">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:38:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="A9140154-4DC6-9880-0D78-ED4D00580912">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:38:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="008DFAB1-1699-6884-9167-18E247833AF8">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:38:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ultima_edicion" id="2C2BA19D-6D36-880C-8A86-DFDA827327D8">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:38:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="token_de_recuperacion" id="B5221D32-404B-615E-F672-3F1F5EE5646F">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:38:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado_por" id="DA3B2A20-DD6A-B212-09C4-6E2655160270">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:38:35 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modificado_por" id="B7383CCB-ED02-CE1E-A167-F7754F4F9BF8">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:38:56 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C904161F-560E-0749-3B43-DEF3FE338C4E" name="usuario_PK">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:19:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35796D28-A497-6797-D610-B45344B98892"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

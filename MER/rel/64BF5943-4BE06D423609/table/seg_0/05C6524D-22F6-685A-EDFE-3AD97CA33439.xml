@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05C6524D-22F6-685A-EDFE-3AD97CA33439" name="cheque">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>D5E7650F-D841-925F-2240-D0EEB62D3162</importedID>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B90D6F06-ADF0-16A8-851F-F420D1BEE53D">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>548771A6-8D56-32B8-FF0B-8EB4118741EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirigido_a" id="93C9025F-088F-8CF1-1C47-4690BFBDFA69">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>AACF1DC2-FED2-F78B-B802-DBB695C2DFE2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_pagado" id="0E0CCDA3-4A10-49EF-CC87-1E3A84B99DF1">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>49AFC559-B6BB-5B6B-A41C-B0AD9BCD4597</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_emision" id="BDC32954-D08E-B7D4-DEFD-1CAF4458242B">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>CDAB75CC-5ED3-C5A6-B2A3-55096053646F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lugar_emision" id="37AD7B6B-512E-60DB-5A71-04415FBE8E59">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>09014A44-DA97-9788-CF1D-01CA1E5AB80E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entidad_bancaria" id="C428DF9D-188C-1A25-048D-C5588FDEAB6A">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>B612E2D4-1351-ACC6-063F-544711681629</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referencia" id="DE177108-91CE-E32C-320E-3149F466D9A9">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>EDFD6068-983B-82D1-EF79-306310E5AD05</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uuid" id="9056D0BA-315F-9055-6071-3B6A3344506B">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>358C93A7-027E-AE73-9C31-1E62D490F0C3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="depositdado" id="01888E03-0FE4-A13C-B42A-6046D94758B2">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>56954A3B-3E0F-F45E-43B5-E8959AEF3E88</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vigencia" id="2EA3C295-265F-4E08-4E6E-F7F777869B9A">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>54ADF1BC-9DB1-D7FF-0055-A3F9A6A938FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado_por" id="27F81E19-5160-F5BA-C573-91A861E1A49D">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>A63A2368-2BDF-9A24-CBF7-D42FC2DA201B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuariov1_id" id="E38093F0-E38C-B2D8-AEE1-8EB035412234">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:53:18 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="842F42B2-C8C3-3B6C-EA57-F7753F5DDE80" referredColumn="79E677D7-B7B5-1CF8-D647-D81A9E5F8436"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AD849DA-85A4-AFDC-AE9D-323A240B55B2" name="cheque_PK">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:45:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<importedID>F6A3A860-B8EC-46F8-C6F2-EA7E5BCB8B03</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B90D6F06-ADF0-16A8-851F-F420D1BEE53D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="341C8C8D-AB1D-52B4-C143-EE2F891FB0E0" name="cheque_usuariov1_FK">
+<createdBy>samuel.martinez</createdBy>
+<createdTime>2024-02-09 20:53:18 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E38093F0-E38C-B2D8-AEE1-8EB035412234"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
