@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="32FE1BFD-E9D7-9E02-5D19-9BBD5BAB4F4E" mainViewID="F3FD007B-DC2D-CC25-AAB4-EF3A2DEF3AA2">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 19:44:25 UTC</createdTime>
+<ownerDesignName>chequesapp</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
