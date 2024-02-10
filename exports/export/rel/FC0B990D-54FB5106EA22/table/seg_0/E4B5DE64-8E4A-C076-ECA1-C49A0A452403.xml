@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4B5DE64-8E4A-C076-ECA1-C49A0A452403" name="usuario">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>F8B16796-9307-25BB-74D8-AE5F529FD5D6</importedID>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9C0F970F-003C-C959-12C2-27B92C9D3CC0">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>AE9B42DB-3C1B-C6AD-D449-D5D7BA5078AA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

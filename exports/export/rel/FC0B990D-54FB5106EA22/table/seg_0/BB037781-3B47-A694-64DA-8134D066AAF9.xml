@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB037781-3B47-A694-64DA-8134D066AAF9" name="anexos">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>E714A847-086E-3391-887D-4F306F91055D</importedID>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="31EDB7A0-E598-E5F2-6747-93DA2DF67DE6">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>8A9DA8AF-13A5-781C-491E-FA5B8CDF4D6D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uuid" id="475C3975-F978-6D28-7C66-3D52FE1D0A7E">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>BC9A8F77-8521-D2BC-C464-2D1719603107</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="BF4CE182-9664-E514-9FC6-062898D733DA">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>1FE0BA4A-AD31-5B2E-D65A-D307FBFC7590</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url" id="F32AD184-A022-A9D4-5D8B-E091269DB61B">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>D12896AD-D724-8FED-4026-F9710FC90028</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cheque" id="2260C75B-19F8-3292-C4E5-B0424A51BD69">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>CB62BBCC-1E48-B05C-2872-20D901DB1C7B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="427FAD18-AE5B-D28F-F801-571FBD249273" referredColumn="7B9FD5EE-AC0A-B946-8AD6-6ED699535193"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5F3FA3E-0D30-4E30-90C3-DAEEC9D3D0BE" name="anexos_PK">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>A44D034E-3EFA-6835-647D-674EEFF560AF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31EDB7A0-E598-E5F2-6747-93DA2DF67DE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C7C874C-64CF-8D28-8E44-59384FB6E86D" name="anexos_cheque_FK">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2260C75B-19F8-3292-C4E5-B0424A51BD69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

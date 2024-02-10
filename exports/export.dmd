@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="export" id="132015F7-1F22-F8A6-7C3B-466AEDCE90FB" version="3.5">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:31:42 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>132015F7-1F22-F8A6-7C3B-466AEDCE90FB</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DC05CCFD-D838-DAE4-796D-4CD9421951DD">
+<designStoragePath>C:\KALETTRE\proyectos\chequesapp\chequesapp\chequesapp</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

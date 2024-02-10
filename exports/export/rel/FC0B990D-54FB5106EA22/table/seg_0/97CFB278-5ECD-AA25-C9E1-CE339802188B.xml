@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97CFB278-5ECD-AA25-C9E1-CE339802188B" name="cheque">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>D5E7650F-D841-925F-2240-D0EEB62D3162</importedID>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7B9FD5EE-AC0A-B946-8AD6-6ED699535193">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>548771A6-8D56-32B8-FF0B-8EB4118741EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirigido_a" id="DC0CC0CB-4D32-93FC-145F-7BBEB2A26646">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>AACF1DC2-FED2-F78B-B802-DBB695C2DFE2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_pagado" id="2C332F9D-565B-93D9-0407-5FE08FA46843">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>49AFC559-B6BB-5B6B-A41C-B0AD9BCD4597</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_emision" id="3DF192A5-7E32-734C-1DC1-2727A3CE0937">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>CDAB75CC-5ED3-C5A6-B2A3-55096053646F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lugar_emision" id="A2E26BE4-6B7E-5744-D271-F74AF7A3A128">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>09014A44-DA97-9788-CF1D-01CA1E5AB80E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entidad_bancaria" id="013C7F23-D2E1-A421-EB93-DFF4EEA7B7E8">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>B612E2D4-1351-ACC6-063F-544711681629</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referencia" id="514D56BA-77CD-0447-CB9E-BC451D25B8B8">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>EDFD6068-983B-82D1-EF79-306310E5AD05</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uuid" id="B3C03BFE-88E7-6D29-996A-E0D59EECBEAE">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>358C93A7-027E-AE73-9C31-1E62D490F0C3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="depositdado" id="BC9DB79C-FC3A-A3BC-E37A-1625EDD1B908">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>56954A3B-3E0F-F45E-43B5-E8959AEF3E88</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vigencia" id="4A38D0BC-C44D-8F8A-F25C-06165C910FBB">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>54ADF1BC-9DB1-D7FF-0055-A3F9A6A938FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado_por" id="1A0337BA-4DC7-4027-EA2D-FA3A11AB1E98">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>A63A2368-2BDF-9A24-CBF7-D42FC2DA201B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F65A689-F6FD-D7FA-A020-DE128B14B7C4" name="cheque_PK">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 21:33:17 UTC</createdTime>
+<ownerDesignName>export</ownerDesignName>
+<importedID>F6A3A860-B8EC-46F8-C6F2-EA7E5BCB8B03</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B9FD5EE-AC0A-B946-8AD6-6ED699535193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C7E5F80-B4B5-A4D2-5FEA-824B5B225D7C" name="cheque">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>05C6524D-22F6-685A-EDFE-3AD97CA33439</importedID>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="978BEDAF-D19E-958E-51F9-218B7EAE6BD3">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>B90D6F06-ADF0-16A8-851F-F420D1BEE53D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirigido_a" id="FDDB9358-C498-50ED-290B-B5CB989A6F16">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>93C9025F-088F-8CF1-1C47-4690BFBDFA69</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_pagado" id="E9637ED6-1FDB-989F-9F04-1C3A90012340">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>0E0CCDA3-4A10-49EF-CC87-1E3A84B99DF1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_emision" id="C60AE60A-A80B-382E-40EC-AAA375BBAE93">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>BDC32954-D08E-B7D4-DEFD-1CAF4458242B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entidad_bancaria" id="0A642A3B-83D9-FD98-8294-9E002A32B0F2">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>C428DF9D-188C-1A25-048D-C5588FDEAB6A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referencia" id="F9989763-E445-0B8E-8346-9663618B6594">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>DE177108-91CE-E32C-320E-3149F466D9A9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uuid" id="7A905515-562D-BB40-D8E1-7D242D1EBBDA">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>9056D0BA-315F-9055-6071-3B6A3344506B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado_por" id="5F22656D-149C-6247-75E6-1A065DF84C27">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>27F81E19-5160-F5BA-C573-91A861E1A49D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DCBC0C8-57CC-2070-6E08-BC6E6B1B6388" referredColumn="57ABD009-D576-37C1-3128-93AD82E1DB60"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8624B89-B321-5EF0-A88F-EA98EA46EAFA" name="cheque_PK">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>0AD849DA-85A4-AFDC-AE9D-323A240B55B2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="978BEDAF-D19E-958E-51F9-218B7EAE6BD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F34B374B-C7A7-C18B-91F4-C83C68A3650B" name="cheque_usuariov1_FK">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:39:36 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F22656D-149C-6247-75E6-1A065DF84C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27AF8CC4-7041-1C27-D0EA-DC65CBE52B1C" name="usuariov1">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>2E6F30D9-5334-B402-1468-6C8C303D2585</importedID>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="57ABD009-D576-37C1-3128-93AD82E1DB60">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>79E677D7-B7B5-1CF8-D647-D81A9E5F8436</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uuid" id="1D2D8BA7-067B-9939-3B11-78FAA24AA005">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>131B1E7F-4EFF-C89F-079E-56C3E771A81D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="FD25236A-9F8B-29B1-E8CF-090B8F6392D7">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>1EC15808-99D9-A996-5968-62232915BE59</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="3C986FDA-71CE-C411-6086-7C5F38047AB7">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>4F182773-D64D-3626-EF3F-F8F0E20378D6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="B64578ED-3E4E-9554-A65F-E62BD957CFBF">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>EA94546B-B99A-3AC1-A2AC-C16AA125773E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasena" id="DEC908EE-0C30-9365-0BC6-C08B2BAF4215">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>60E7E43F-2F2C-167F-ECB5-1F7EF3D28781</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="7BDF4861-80A7-18A4-81EE-08FF69188AE4">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>394EBB57-468D-9098-1B1E-DE5FEB00649E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="5ACBA0CF-8AAE-F6C3-7954-1C74F8554759">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>D5BE634B-FD8C-BF96-9C35-C96B6C144B34</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bloqueado" id="35C19E3B-89A3-BC5C-76D1-2F8AF4F31D7B">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>8C8F23EF-0926-2DD4-9704-B7CB841C2CC0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="3625EB80-1840-604C-8C20-DDD5B22C2689">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>CEBCBBCA-249C-69CB-8B0A-851D60AE6DE6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="F68F2371-47DB-1368-1C0F-35425AABABB4">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>DA970E49-40D3-8629-693E-E364A46E8973</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ultima_edicion" id="D3920DD6-B924-3057-C75C-3F381B702FA5">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>7094703B-E96D-69C1-80A3-79C919815C37</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="token_de_recuperacion" id="7E3DDEBE-BFFE-E1BA-9F74-4230431B3183">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>03249DC6-DEDA-5107-3B6E-8F600BB3CAC8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado_por" id="31F84F82-B447-91FB-A3BB-96AA40DC26ED">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>AC2D7AE7-4EC1-18D0-26B6-9FE7AD98DD5F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modificado_por" id="564DAECE-B22A-FAEB-2E99-A42B97A00111">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>9880B840-096A-2C25-7184-739B19D001C6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C72FCBF0-DEAC-2792-BA2E-6BFDB2142DEF" name="usuario_PK">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>AB881DE2-5BC3-098F-1250-3A3D26599AD2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57ABD009-D576-37C1-3128-93AD82E1DB60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

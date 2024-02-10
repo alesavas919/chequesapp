@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="871A5A97-790A-E2D0-B172-BA6AEE4A10B8" containerWithKeyObject="AC23A8FE-68D7-5583-62A6-FA5FB23500FD" localFKIndex="E105FAB8-FC44-DEB9-2892-4524174F4854" name="anexos_cheque_FK">
+<createdBy>alejo</createdBy>
+<createdTime>2024-02-09 22:33:09 UTC</createdTime>
+<ownerDesignName>MER_V2</ownerDesignName>
+<importedID>35197A8A-9921-92DE-54CE-C40872C00DB0</importedID>
+<referredTableLongName>cheque</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C7E5F80-B4B5-A4D2-5FEA-824B5B225D7C</referredTableID>
+<keyObject>F8624B89-B321-5EF0-A88F-EA98EA46EAFA</keyObject>
+<referredKeyID>F8624B89-B321-5EF0-A88F-EA98EA46EAFA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
